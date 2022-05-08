@@ -11,13 +11,13 @@ const myLifeGoals: Goal[] = [
   { id: '4', text: 'Repeat' },
 ];
 
-export function addNewGoalHandler(goal: Goal) {
+export const addNewGoalHandler = (goal: Goal) =>{
   myLifeGoals.push(goal);
 
   console.log(myLifeGoals);
 }
 
-function App() {
+const App = () => {
   return (
     <div>
       <h2 className="App-header">Life goals</h2>
@@ -25,6 +25,6 @@ function App() {
       <GoalList goals={myLifeGoals} />
     </div>
   );
-}
+};
 
 export default App;
