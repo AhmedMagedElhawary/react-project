@@ -1,7 +1,7 @@
-import { Goal } from '../types';
+import { Goal } from '../../types';
 import './GoalList.css';
 
-function GoalList(props: { goals: Goal[] }): JSX.Element {
+const GoalList = (props: { goals: Goal[] }) => {
   return (
     <ul className="goal-list">
       {props.goals.map(({ id, text }) => (
