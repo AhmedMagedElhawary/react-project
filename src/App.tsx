@@ -1,13 +1,13 @@
-import "./App.css";
-import GoalList from "./components/GoalList";
-import { Goal } from "./types";
+import './App.css';
+import GoalList from './components/GoalList';
+import { Goal } from './types';
 
 function App() {
-  const myLifeGoals : Goal[] = [
-    { id: "1", text: "Eat" },
-    { id: "2", text: "Hack" },
-    { id: "3", text: "Sleep" },
-    { id: "4", text: "Repeat" },
+  const myLifeGoals: Goal[] = [
+    { id: '1', text: 'Eat' },
+    { id: '2', text: 'Hack' },
+    { id: '3', text: 'Sleep' },
+    { id: '4', text: 'Repeat' },
   ];
 
   return (
