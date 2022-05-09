@@ -9,8 +9,6 @@ let setGoal: React.Dispatch<React.SetStateAction<Goal[]>>;
 
 export const addNewGoalHandler = (newGoal: Goal) => {
   setGoal((previousGoals)=> previousGoals.concat(newGoal));
-
-  console.log(goals);
 };
 
 const App = () => {
